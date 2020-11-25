@@ -1,0 +1,5 @@
+# likek_meituan_servlet
+仿美团的后端java
+java web
+需要购买云服务器,绑定云端数据库
+本项目使用的ide是intellij idea,连接的数据库是mysql,使用servlet进行与android数据交互
