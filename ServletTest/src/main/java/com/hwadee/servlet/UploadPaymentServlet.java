@@ -26,6 +26,7 @@ public class UploadPaymentServlet extends HttpServlet {
             System.out.println("在此处处理 UpdateServlet 的 GET/POST 请求");
 
             String food_name=req.getParameter(Config.REQUEST_PARAMETER_FOOD_NAME);
+            String shop_name=req.getParameter(Config.REQUEST_PARAMETER_SHOPNAME);
             String food_price=req.getParameter(Config.REQUEST_PARAMETER_FOOD_PRICE);
             String total_price=req.getParameter(Config.REQUEST_PARAMETER_TOTAL_PRICE);
             String oid=req.getParameter(Config.REQUEST_PARAMETER_OID);
@@ -33,7 +34,7 @@ public class UploadPaymentServlet extends HttpServlet {
             String shop_id=req.getParameter(Config.REQUEST_PARAMETER_SHOPID);
 
 
-            boolean isUpdate = new UserDao().updatePayment(food_name,food_price,total_price,oid,user_id,shop_id);
+            boolean isUpdate = new UserDao().updatePayment(food_name,food_price,total_price,oid,user_id,shop_id,shop_name);
             if (isUpdate) {
                 result.setCode(Config.STATUS_SUCCESS);
                 result.setMessage("更新payment成功");

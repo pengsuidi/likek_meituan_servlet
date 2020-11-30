@@ -89,7 +89,7 @@ public class UploadUserCommentServlet extends HttpServlet {
                 //TODO 返回响应：注册失败
                 System.err.println("zxczxcJSON -> " + JSONObject.toJSONString(result));
             }
-            //更新shop_info里面的评分
+            //更新shop_info里面的
             UserDao commentDao = new UserDao();
             List<UserComment> comments = commentDao.selectCommentList(shopid);
             Float new_grade=0.0f;
