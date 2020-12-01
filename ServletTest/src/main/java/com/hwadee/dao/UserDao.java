@@ -60,7 +60,7 @@ UserDao {
     public boolean updatePayment(String food_name,String food_price,String total_price,String oid,String user_id,String shop_id,String shop_name)
             throws ClassNotFoundException {
         return new JDBCUtil().execute("insert into payment(shop_id,food_name,shop_name,food_price,total_price,oid,user_id)" +
-                " values(?,?,?,?,?,?)",shop_id, food_name,shop_name,food_price,total_price,oid,user_id);
+                " values(?,?,?,?,?,?,?)",shop_id, food_name,shop_name,food_price,total_price,oid,user_id);
 
         //return new JDBCUtil().register("insert into muser(uname,unickname,usex,upassword) values(?,?,?,?)", user);
 
