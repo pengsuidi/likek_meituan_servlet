@@ -11,7 +11,7 @@
  Target Server Version : 50731
  File Encoding         : 65001
 
- Date: 25/11/2020 10:27:30
+ Date: 01/12/2020 11:31:01
 */
 
 SET NAMES utf8mb4;
@@ -154,6 +154,7 @@ INSERT INTO `food_menu` VALUES ('憨憨', '哦', '10', '憨憨', '/root/FoodImg/
 INSERT INTO `food_menu` VALUES ('乔丹', '张飞', '5', '肥肠', '/root/FoodImg/food:_3_1602232129442.jpg', NULL, 3);
 INSERT INTO `food_menu` VALUES ('adizero', '让你跑的更快更远', '100', '跑鞋', '/root/FoodImg/food:_4_1605771773414.jpg', NULL, 4);
 INSERT INTO `food_menu` VALUES ('波斯顿9', '跑得快', '500', '跑鞋', '/root/FoodImg/food:_3_1606029127717.jpg', NULL, 3);
+INSERT INTO `food_menu` VALUES ('地铁', '贵', '1699', '运输', '/root/FoodImg/food:_3_1606723963733.jpg', NULL, 3);
 
 -- ----------------------------
 -- Table structure for muser
@@ -190,136 +191,136 @@ CREATE TABLE `payment`  (
 -- ----------------------------
 -- Records of payment
 -- ----------------------------
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '10', 1, '17', '1');
-INSERT INTO `payment` VALUES ('麻辣兔丁', '22元', '兔子餐厅', '54', 2, '17', '0');
-INSERT INTO `payment` VALUES ('爆炒兔腰', '32元', '兔子餐厅', '54', 2, '17', '0');
-INSERT INTO `payment` VALUES ('披萨', '28元', '土豆王', '60.0', 3, '17', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '60.0', 3, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '60.0', 3, '17', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '48.0', 4, '17', '1');
-INSERT INTO `payment` VALUES ('披萨', '28元', '土豆王', '48.0', 4, '17', '1');
-INSERT INTO `payment` VALUES ('披萨', '28元', '土豆王', '84.0', 5, '17', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '84.0', 5, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '84.0', 5, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '84.0', 5, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '84.0', 5, '17', '1');
-INSERT INTO `payment` VALUES ('爆炒兔腰', '32元', '兔子餐厅', '95.0', 6, '17', '0');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '95.0', 6, '17', '0');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23元', '兔子餐厅', '95.0', 6, '17', '0');
-INSERT INTO `payment` VALUES ('麻辣兔丁', '22元', '兔子餐厅', '95.0', 6, '17', '0');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '24.0', 7, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '24.0', 7, '17', '1');
-INSERT INTO `payment` VALUES ('麻辣兔丁', '22元', '兔子餐厅', '76.0', 8, '17', '0');
-INSERT INTO `payment` VALUES ('麻辣兔丁', '22元', '兔子餐厅', '76.0', 8, '17', '0');
-INSERT INTO `payment` VALUES ('爆炒兔腰', '32元', '兔子餐厅', '76.0', 8, '17', '0');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '62.0', 9, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '62.0', 9, '17', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '62.0', 9, '17', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '62.0', 9, '17', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '40.0', 10, '17', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '40.0', 10, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '24.0', 11, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '24.0', 11, '17', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '22.0', 12, '17', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '22.0', 12, '17', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '20.0', 13, '26', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '20.0', 13, '26', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '22.0', 14, '27', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '22.0', 14, '27', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '32.0', 15, '27', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '32.0', 15, '27', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '32.0', 15, '27', '1');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '77.0', 16, '27', '0');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23元', '兔子餐厅', '77.0', 16, '27', '0');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '77.0', 16, '27', '0');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '77.0', 16, '27', '0');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '40.0', 17, '27', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '40.0', 17, '27', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '40.0', 17, '27', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '44.0', 18, '27', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '44.0', 18, '27', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '44.0', 18, '27', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '44.0', 18, '27', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '77.0', 19, '28', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '77.0', 19, '28', '1');
-INSERT INTO `payment` VALUES ('油炸', '25元', '土豆王', '77.0', 19, '28', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '77.0', 19, '28', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '77.0', 19, '28', '1');
-INSERT INTO `payment` VALUES ('披萨', '28元', '土豆王', '93.0', 20, '30', '1');
-INSERT INTO `payment` VALUES ('油炸', '25元', '土豆王', '93.0', 20, '30', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '93.0', 20, '30', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '93.0', 20, '30', '1');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '73.0', 21, '30', '0');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23元', '兔子餐厅', '73.0', 21, '30', '0');
-INSERT INTO `payment` VALUES ('爆炒兔腰', '32元', '兔子餐厅', '73.0', 21, '30', '0');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '77.0', 22, '31', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '77.0', 22, '31', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '77.0', 22, '31', '1');
-INSERT INTO `payment` VALUES ('油炸', '25元', '土豆王', '77.0', 22, '31', '1');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23元', '兔子餐厅', '59.0', 23, '31', '0');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '59.0', 23, '31', '0');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '59.0', 23, '31', '0');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '52.0', 24, '31', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '52.0', 24, '31', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '52.0', 24, '31', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '52.0', 24, '31', '1');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '104.0', 25, '31', '0');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23元', '兔子餐厅', '104.0', 25, '31', '0');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '104.0', 25, '31', '0');
-INSERT INTO `payment` VALUES ('麻辣兔丁', '22元', '兔子餐厅', '104.0', 25, '31', '0');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23元', '兔子餐厅', '104.0', 25, '31', '0');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '0.0', 26, '33', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '0.0', 26, '33', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '0.0', 26, '33', '1');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '91.0', 27, '33', '0');
-INSERT INTO `payment` VALUES ('爆炒兔腰', '32元', '兔子餐厅', '91.0', 27, '33', '0');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '91.0', 27, '33', '0');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23元', '兔子餐厅', '91.0', 27, '33', '0');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '42.0', 28, '33', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '42.0', 28, '33', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '42.0', 28, '33', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '42.0', 28, '33', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '64.0', 29, '33', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '64.0', 29, '33', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '64.0', 29, '33', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '64.0', 29, '33', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '64.0', 29, '33', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '32.0', 30, '33', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '32.0', 30, '33', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '32.0', 30, '33', '1');
-INSERT INTO `payment` VALUES ('油炸', '25元', '土豆王', '25.0', 31, '33', '1');
-INSERT INTO `payment` VALUES ('披萨', '28元', '土豆王', '28.0', 37, '28', '1');
-INSERT INTO `payment` VALUES ('披萨', '28元', '土豆王', '53.0', 39, '28', '1');
-INSERT INTO `payment` VALUES ('油炸', '25元', '土豆王', '53.0', 39, '28', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '72.0', 40, '28', '1');
-INSERT INTO `payment` VALUES ('汉堡', '20元', '土豆王', '72.0', 40, '28', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12元', '土豆王', '72.0', 40, '28', '1');
-INSERT INTO `payment` VALUES ('披萨', '28元', '土豆王', '72.0', 40, '28', '1');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '36.0', 41, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '36.0', 41, '28', '2');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '10.0', 1, '17', '1');
+INSERT INTO `payment` VALUES ('麻辣兔丁', '22', '兔子餐厅', '54.0', 2, '17', '0');
+INSERT INTO `payment` VALUES ('爆炒兔腰', '32', '兔子餐厅', '54.0', 2, '17', '0');
+INSERT INTO `payment` VALUES ('披萨', '28', '土豆王', '60.0', 3, '17', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '60.0', 3, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '60.0', 3, '17', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '48.0', 4, '17', '1');
+INSERT INTO `payment` VALUES ('披萨', '28', '土豆王', '48.0', 4, '17', '1');
+INSERT INTO `payment` VALUES ('披萨', '28', '土豆王', '84.0', 5, '17', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '84.0', 5, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '84.0', 5, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '84.0', 5, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '84.0', 5, '17', '1');
+INSERT INTO `payment` VALUES ('爆炒兔腰', '32', '兔子餐厅', '95.0', 6, '17', '0');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '95.0', 6, '17', '0');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '95.0', 6, '17', '0');
+INSERT INTO `payment` VALUES ('麻辣兔丁', '22', '兔子餐厅', '95.0', 6, '17', '0');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '24.0', 7, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '24.0', 7, '17', '1');
+INSERT INTO `payment` VALUES ('麻辣兔丁', '22', '兔子餐厅', '76.0', 8, '17', '0');
+INSERT INTO `payment` VALUES ('麻辣兔丁', '22', '兔子餐厅', '76.0', 8, '17', '0');
+INSERT INTO `payment` VALUES ('爆炒兔腰', '32', '兔子餐厅', '76.0', 8, '17', '0');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '62.0', 9, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '62.0', 9, '17', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '62.0', 9, '17', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '62.0', 9, '17', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '40.0', 10, '17', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '40.0', 10, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '24.0', 11, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '24.0', 11, '17', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '22.0', 12, '17', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '22.0', 12, '17', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '20.0', 13, '26', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '20.0', 13, '26', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '22.0', 14, '27', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '22.0', 14, '27', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 15, '27', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '32.0', 15, '27', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 15, '27', '1');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '77.0', 16, '27', '0');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '77.0', 16, '27', '0');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '77.0', 16, '27', '0');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '77.0', 16, '27', '0');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '40.0', 17, '27', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '40.0', 17, '27', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '40.0', 17, '27', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '44.0', 18, '27', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '44.0', 18, '27', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '44.0', 18, '27', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '44.0', 18, '27', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '77.0', 19, '28', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '77.0', 19, '28', '1');
+INSERT INTO `payment` VALUES ('油炸', '25', '土豆王', '77.0', 19, '28', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '77.0', 19, '28', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '77.0', 19, '28', '1');
+INSERT INTO `payment` VALUES ('披萨', '28', '土豆王', '93.0', 20, '30', '1');
+INSERT INTO `payment` VALUES ('油炸', '25', '土豆王', '93.0', 20, '30', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '93.0', 20, '30', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '93.0', 20, '30', '1');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '73.0', 21, '30', '2');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '73.0', 21, '30', '2');
+INSERT INTO `payment` VALUES ('爆炒兔腰', '32', '兔子餐厅', '73.0', 21, '30', '2');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '77.0', 22, '31', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '77.0', 22, '31', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '77.0', 22, '31', '1');
+INSERT INTO `payment` VALUES ('油炸', '25', '土豆王', '77.0', 22, '31', '1');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '59.0', 23, '31', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '59.0', 23, '31', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '59.0', 23, '31', '2');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '52.0', 24, '31', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '52.0', 24, '31', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '52.0', 24, '31', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '52.0', 24, '31', '1');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '86.0', 25, '31', '2');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '86.0', 25, '31', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '86.0', 25, '31', '2');
+INSERT INTO `payment` VALUES ('麻辣兔丁', '22', '兔子餐厅', '86.0', 25, '31', '2');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '86.0', 25, '31', '2');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 26, '33', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 26, '33', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '32.0', 26, '33', '1');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '91.0', 27, '33', '2');
+INSERT INTO `payment` VALUES ('爆炒兔腰', '32', '兔子餐厅', '91.0', 27, '33', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '91.0', 27, '33', '2');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '91.0', 27, '33', '2');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '42.0', 28, '33', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '42.0', 28, '33', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '42.0', 28, '33', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '42.0', 28, '33', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '64.0', 29, '33', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '64.0', 29, '33', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '64.0', 29, '33', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '64.0', 29, '33', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '64.0', 29, '33', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 30, '33', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '32.0', 30, '33', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 30, '33', '1');
+INSERT INTO `payment` VALUES ('油炸', '25', '土豆王', '25.0', 31, '33', '1');
+INSERT INTO `payment` VALUES ('油炸', '25', '土豆王', '25.0', 39, '28', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '72.0', 40, '28', '1');
+INSERT INTO `payment` VALUES ('汉堡', '20', '土豆王', '72.0', 40, '28', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '72.0', 40, '28', '1');
+INSERT INTO `payment` VALUES ('披萨', '28', '土豆王', '72.0', 40, '28', '1');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '36.0', 41, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '36.0', 41, '28', '2');
 INSERT INTO `payment` VALUES ('乔丹', '5', '123', '6.0', 42, '28', '3');
 INSERT INTO `payment` VALUES ('憨憨', '1', '123', '6.0', 42, '28', '3');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '20.0', 43, '28', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10元', '土豆王', '20.0', 43, '28', '1');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '54.0', 44, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '54.0', 44, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18元', '兔子餐厅', '54.0', 44, '28', '2');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12', NULL, '34.0', 59, '28', '1');
-INSERT INTO `payment` VALUES ('锅巴土豆', '12', NULL, '34.0', 59, '28', '1');
-INSERT INTO `payment` VALUES ('狼牙土豆', '10', NULL, '34.0', 59, '28', '1');
-INSERT INTO `payment` VALUES ('麻辣兔丁', '22', NULL, '104.0', 60, '28', '2');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23', NULL, '104.0', 60, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18', NULL, '104.0', 60, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18', NULL, '104.0', 60, '28', '2');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23', NULL, '104.0', 61, '28', '2');
-INSERT INTO `payment` VALUES ('麻辣兔丁', '22', NULL, '104.0', 61, '28', '2');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23', NULL, '104.0', 61, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18', NULL, '104.0', 61, '28', '2');
-INSERT INTO `payment` VALUES ('麻辣兔头', '23', NULL, '104.0', 60, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18', NULL, '104.0', 61, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18', NULL, '54.0', 62, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18', NULL, '54.0', 62, '28', '2');
-INSERT INTO `payment` VALUES ('干锅兔', '18', NULL, '54.0', 62, '28', '2');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '20.0', 43, '28', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '20.0', 43, '28', '1');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '54.0', 44, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '54.0', 44, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '54.0', 44, '28', '2');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '34.0', 59, '28', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '34.0', 59, '28', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '34.0', 59, '28', '1');
+INSERT INTO `payment` VALUES ('麻辣兔丁', '22', '兔子餐厅', '58.0', 60, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '58.0', 60, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '58.0', 60, '28', '2');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '86.0', 61, '28', '2');
+INSERT INTO `payment` VALUES ('麻辣兔丁', '22', '兔子餐厅', '86.0', 61, '28', '2');
+INSERT INTO `payment` VALUES ('麻辣兔头', '23', '兔子餐厅', '86.0', 61, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '86.0', 61, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '54.0', 62, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '54.0', 62, '28', '2');
+INSERT INTO `payment` VALUES ('干锅兔', '18', '兔子餐厅', '54.0', 62, '28', '2');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '20.0', 64, '28', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '20.0', 64, '28', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 68, '28', '1');
+INSERT INTO `payment` VALUES ('狼牙土豆', '10', '土豆王', '32.0', 68, '28', '1');
+INSERT INTO `payment` VALUES ('锅巴土豆', '12', '土豆王', '32.0', 68, '28', '1');
 
 -- ----------------------------
 -- Table structure for seller_info
@@ -350,7 +351,7 @@ CREATE TABLE `shop_info`  (
   `shop_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `grade` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`shop_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of shop_info
@@ -360,6 +361,7 @@ INSERT INTO `shop_info` VALUES (2, '兔子餐厅', '/root/img/tuzi.jpg', NULL, '
 INSERT INTO `shop_info` VALUES (3, '123', '/root/img/_28_123_1601536447118.jpg', NULL, '28', '123', '4.5');
 INSERT INTO `shop_info` VALUES (4, '阿迪达斯', '/root/img/_28_阿迪达斯_1605771647273.jpg', NULL, '28', '服装', NULL);
 INSERT INTO `shop_info` VALUES (5, '索康尼', '/root/img/_28_索康尼_1606029071235.jpg', NULL, '28', '鞋子', NULL);
+INSERT INTO `shop_info` VALUES (6, '乐外', '/root/img/_28_乐外_1606723019032.jpg', NULL, '28', '学校', NULL);
 
 -- ----------------------------
 -- Table structure for socket_info
@@ -404,7 +406,7 @@ CREATE TABLE `totaloid`  (
 -- ----------------------------
 -- Records of totaloid
 -- ----------------------------
-INSERT INTO `totaloid` VALUES (62);
+INSERT INTO `totaloid` VALUES (68);
 
 -- ----------------------------
 -- Table structure for user
