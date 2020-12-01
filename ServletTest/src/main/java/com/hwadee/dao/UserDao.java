@@ -219,7 +219,7 @@ UserDao {
                 .selectList(OrderInfo.class,
                         "select * from payment where user_id=?", userid);
     }
-
+///
     public List<OrderInfo> selectOrderesFoodList(String userid, String oid) throws ClassNotFoundException {
         return new JDBCUtil()
                 .selectList(OrderInfo.class,
